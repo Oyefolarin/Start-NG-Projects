@@ -1,12 +1,9 @@
 body {
-    margin-top: 0px;
-    margin-bottom: 0px;
     background-color: #EEE;
 }
 
 a {
     text-decoration: none;
-    color: #FF7259;
 }
 
 #header {
@@ -14,7 +11,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: hsla(0, 6%, 35%, 0.288)
+    color: rgba(95, 84, 84, 0.288);
 }
 
 #nav {
@@ -62,7 +59,8 @@ li :hover {
 }
 
 #dpic {
-    padding: 20px 10px 10px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -77,51 +75,37 @@ li :hover {
 #main-container {}
 
 #overv {
-    margin-top: 10px;
     margin: 0px;
     padding: 0px;
-    background-color: #FF7259;
-}
-
-#overv p {
-    padding-right: 50px;
+    background-color: white;
 }
 
 #pData {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 221, 221);
 }
 
 #edu {
-    margin-top: 10px;
-    margin-bottom: 10px;
     margin: 0px;
     padding: 0px;
-    background-color: #CFEEF9;
+    background-color: rgb(192, 190, 190);
 }
 
 #skills {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(177, 176, 176);
 }
 
 #exp {
-    background-color: #E0DEDE;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 230, 230);
 }
 
 #refo1 {
-    padding-left: 0px;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    padding-right: 100px;
     float: right;
-}
-
-#refo {
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 #refs {
@@ -130,113 +114,15 @@ li :hover {
 }
 
 .Texts {
-    padding: 20px 20px 20px 50px;
-    margin: 0;
+    padding: 20px;
+    margin: 20px;
 }
 
-#contact {
-    color: #ffffff;
-}
-
-#contact a {
-    color: #FF7259;
+#footer {
+    background-color: #e0dede;
+    background-size: 100px 100px;
 }
 
 #copy {
     text-align: center;
-    color: white;
-    background-color: black;
-}
-
-h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#conct-txt {
-    text-align: center;
-    Color: white;
-}
-
-#form {
-    /*  float: right; */
-    text-align: center;
-    padding-top: 30px;
-}
-
-
-/*
-form {
-    padding-right: 90px;
-    padding-top: 90px;
-}
-*/
-
-#tel {
-    height: 25px;
-    width: 145px;
-}
-
-#form-name {
-    height: 25px;
-}
-
-#subject {
-    height: 25px;
-}
-
-#message {
-    padding-top: 0;
-    height: 100px;
-}
-
-#email {
-    width: 280px;
-    height: 25px;
-}
-
-#button {
-    border-color: #FF7259;
-    margin-left: 420px;
-    border-radius: 10px;
-    display: block;
-    background-color: #FF7259;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.form-elemnt {
-    width: 430px;
-}
-
-#contct-url li {
-    display: inline;
-    text-align: center;
-    padding: 20px 16px;
-}
-
-#contct-url a {
-    color: rgba(255, 255, 255, 0.267);
-}
-
-#contct-url ul {
-    padding-right: 50px;
-    text-align: center;
-}
-
-footer {
-    height: 460px;
-    background-color: black;
 }
