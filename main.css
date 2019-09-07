@@ -1,242 +1,267 @@
-body {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: #EEE;
-}
-
-a {
-    text-decoration: none;
-    color: #FF7259;
-}
-
-#header {
-    background-image: url(https://res.cloudinary.com/isrealbankole/image/upload/v1567083055/samuel-zeller-VK284NKoAVU-unsplash_nufgp3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: hsla(0, 6%, 35%, 0.288)
-}
-
-#nav {
-    color: white;
-}
-
-.selected {
-    color: white;
-}
-
-#nav ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    background-color: #0000001f;
-}
-
-#nav li {
-    display: inline;
-}
-
-#nav li {
-    float: left;
-}
-
-#nav li {
-    display: block;
-    width: auto;
-    height: auto;
-    padding: 14px 16px;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-li :hover {
-    background-color: rgb(0, 0, 0);
-}
-
-#name {
-    color: white;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-}
-
-#dpic {
-    padding: 20px 10px 10px;
-    text-align: center;
-}
-
-#container {
-    width: 900px;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-}
-
-#main-container {}
-
-#overv {
-    margin-top: 10px;
-    margin: 0px;
-    padding: 0px;
-    background-color: #FF7259;
-}
-
-#overv p {
-    padding-right: 50px;
-}
-
-#pData {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(255, 255, 255);
-}
-
-#edu {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin: 0px;
-    padding: 0px;
-    background-color: #CFEEF9;
-}
-
-#skills {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(255, 255, 255);
-}
-
-#exp {
-    background-color: #E0DEDE;
-}
-
-#refo1 {
-    padding-left: 0px;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    padding-right: 100px;
-    float: right;
-}
-
-#refo {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-#refs {
-    margin: 0px;
-    padding: 0px;
-}
-
-.Texts {
-    padding: 20px 20px 20px 50px;
-    margin: 0;
-}
-
-#contact {
-    color: #ffffff;
-}
-
-#contact a {
-    color: #FF7259;
-}
-
-#copy {
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
-h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#conct-txt {
-    text-align: center;
-    Color: white;
-}
-
-#form {
-    /*  float: right; */
-    text-align: center;
-    padding-top: 30px;
-}
-
-
-/*
+    body {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: #EEE;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FF7259;
+    }
+    
+    #header {
+        background-image: url(https://res.cloudinary.com/isrealbankole/image/upload/v1567083055/samuel-zeller-VK284NKoAVU-unsplash_nufgp3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: hsla(0, 6%, 35%, 0.288)
+    }
+    
+    #nav {
+        color: white;
+    }
+    
+    .selected {
+        color: white;
+    }
+    
+    #nav ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        background-color: #0000001f;
+    }
+    
+    #nav li {
+        display: inline;
+    }
+    
+    #nav li {
+        float: left;
+    }
+    
+    #nav li {
+        display: block;
+        width: auto;
+        height: auto;
+        padding: 14px 16px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    li :hover {
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #name {
+        color: white;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #dpic {
+        padding: 20px 10px 10px;
+        text-align: center;
+    }
+    
+    #dpic img {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 250px;
+        height: 270px;
+    }
+    
+    #container {
+        width: 900px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+    
+    #main-container {}
+    
+    #overv {
+        margin-top: 10px;
+        margin: 0px;
+        padding: 0px;
+        background-color: #FF7259;
+    }
+    
+    #overv p {
+        padding-right: 50px;
+    }
+    
+    #pData {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #edu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin: 0px;
+        padding: 0px;
+        background-color: #CFEEF9;
+    }
+    
+    #skills {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #exp {
+        background-color: #E0DEDE;
+    }
+    
+    #refo1 {
+        padding-left: 0px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        padding-right: 100px;
+        float: right;
+    }
+    
+    #refo {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    #refs {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .Texts {
+        padding: 20px 20px 20px 50px;
+        margin: 0;
+    }
+    
+    #contact {
+        color: #ffffff;
+    }
+    
+    #contact a {
+        color: #FF7259;
+    }
+    
+    #copy {
+        font-size: 10px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.678);
+        background-color: black;
+    }
+    
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    #conct-txt {
+        text-align: center;
+        Color: white;
+    }
+    
+    #form {
+        /*  float: right; */
+        text-align: center;
+        padding-top: 30px;
+    }
+    /*
 form {
     padding-right: 90px;
     padding-top: 90px;
 }
 */
-
-#tel {
-    height: 25px;
-    width: 145px;
-}
-
-#form-name {
-    height: 25px;
-}
-
-#subject {
-    height: 25px;
-}
-
-#message {
-    padding-top: 0;
-    height: 100px;
-}
-
-#email {
-    width: 280px;
-    height: 25px;
-}
-
-#button {
-    border-color: #FF7259;
-    margin-left: 420px;
-    border-radius: 10px;
-    display: block;
-    background-color: #FF7259;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.form-elemnt {
-    width: 430px;
-}
-
-#contct-url li {
-    display: inline;
-    text-align: center;
-    padding: 20px 16px;
-}
-
-#contct-url a {
-    color: rgba(255, 255, 255, 0.267);
-}
-
-#contct-url ul {
-    padding-right: 50px;
-    text-align: center;
-}
-
-footer {
-    height: 460px;
-    background-color: black;
-}
+    
+    #tel {
+        height: 25px;
+        width: 145px;
+    }
+    
+    #form-name {
+        height: 25px;
+    }
+    
+    #subject {
+        height: 25px;
+    }
+    
+    #message {
+        padding-top: 0;
+        height: 100px;
+    }
+    
+    #email {
+        width: 280px;
+        height: 25px;
+    }
+    
+    #button {
+        color: white;
+        padding-right: 12px;
+        width: 100px;
+        height: 30px;
+        border-color: rgb(0, 0, 0);
+        margin-left: 400px;
+        border-radius: 20px;
+        display: block;
+        background-color: #FF7259;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        /* IE10+ */
+        background-image: -ms-linear-gradient(left, #EE99FF 0%, #FF7259 100%);
+        /* Mozilla Firefox */
+        background-image: -moz-linear-gradient(left, #EE99FF 0%, #FF7259 100%);
+        /* Opera */
+        background-image: -o-linear-gradient(left, #EE99FF 0%, #FF7259 100%);
+        /* Webkit (Safari/Chrome 10) */
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #EE99FF), color-stop(100, #FF7259));
+        /* Webkit (Chrome 11+) */
+        background-image: -webkit-linear-gradient(left, #EE99FF 0%, #FF7259 100%);
+        /* W3C Markup */
+        background-image: linear-gradient(to right, #EE99FF 0%, #FF7259 100%);
+    }
+    
+    .form-elemnt {
+        width: 430px;
+    }
+    
+    #contct-url li {
+        display: inline;
+        text-align: center;
+        padding: 20px 16px;
+    }
+    
+    #contct-url a {
+        color: rgba(255, 255, 255, 0.267);
+    }
+    
+    #contct-url ul {
+        padding-right: 50px;
+        text-align: center;
+    }
+    
+    footer {
+        height: 460px;
+        background-color: black;
+    }
